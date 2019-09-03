@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="59068" started-at="2019-09-03T10:33:39Z" finished-at="2019-09-03T10:34:38Z">
+  <suite name="Suite" duration-ms="49081" started-at="2019-09-03T10:52:16Z" finished-at="2019-09-03T10:53:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="59068" started-at="2019-09-03T10:33:39Z" finished-at="2019-09-03T10:34:38Z">
+    <test name="Test" duration-ms="49081" started-at="2019-09-03T10:52:16Z" finished-at="2019-09-03T10:53:05Z">
       <class name="com.TestNG_ITestListenerReporters.TestClass">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@475530b9]" name="beforeTest" is-config="true" duration-ms="28012" started-at="2019-09-03T10:33:39Z" finished-at="2019-09-03T10:34:07Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@1d057a39]" name="beforeTest" is-config="true" duration-ms="18439" started-at="2019-09-03T10:52:16Z" finished-at="2019-09-03T10:52:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="Test1()[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@475530b9]" name="Test1" duration-ms="7559" started-at="2019-09-03T10:34:07Z" finished-at="2019-09-03T10:34:15Z">
+        <test-method status="FAIL" signature="Test1()[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@1d057a39]" name="Test1" duration-ms="9876" started-at="2019-09-03T10:52:35Z" finished-at="2019-09-03T10:52:45Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='rounded-1 text-gray bg-gray-light py-4 px-4 px-md-3 px-lg']//button[contains(text(),'Sign up for GitHub')]"}
@@ -20,8 +20,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'QAPPS02', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\deshanr\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 95844b8e5174c011c9935bf5e5f6db08
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\deshanr\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61277}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6aa51f2ac1de1fb6af4d784fd7545678
 *** Element info: {Using=xpath, value=//div[@class='rounded-1 text-gray bg-gray-light py-4 px-4 px-md-3 px-lg']//button[contains(text(),'Sign up for GitHub')]}]]>
             </message>
             <full-stacktrace>
@@ -31,8 +31,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'QAPPS02', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\deshanr\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60184}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 95844b8e5174c011c9935bf5e5f6db08
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\deshanr\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61277}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6aa51f2ac1de1fb6af4d784fd7545678
 *** Element info: {Using=xpath, value=//div[@class='rounded-1 text-gray bg-gray-light py-4 px-4 px-md-3 px-lg']//button[contains(text(),'Sign up for GitHub')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -48,7 +48,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.TestNG_ITestListenerReporters.TestClass.Test1(TestClass.java:29)
+at com.TestNG_ITestListenerReporters.TestClass.Test1(TestClass.java:31)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -80,52 +80,52 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@475530b9]" name="tearDown" is-config="true" duration-ms="2893" started-at="2019-09-03T10:34:15Z" finished-at="2019-09-03T10:34:18Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@1d057a39]" name="tearDown" is-config="true" duration-ms="814" started-at="2019-09-03T10:52:45Z" finished-at="2019-09-03T10:52:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test1 status=FAILURE method=TestClass.Test1()[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@475530b9] output={null}]]]>
+                <![CDATA[[TestResult name=Test1 status=FAILURE method=TestClass.Test1()[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@1d057a39] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="Test2()[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@475530b9]" name="Test2" duration-ms="12831" started-at="2019-09-03T10:34:18Z" finished-at="2019-09-03T10:34:31Z">
+        <test-method status="PASS" signature="Test2()[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@1d057a39]" name="Test2" duration-ms="12407" started-at="2019-09-03T10:52:45Z" finished-at="2019-09-03T10:52:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@475530b9]" name="tearDown" is-config="true" duration-ms="1134" started-at="2019-09-03T10:34:31Z" finished-at="2019-09-03T10:34:32Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@1d057a39]" name="tearDown" is-config="true" duration-ms="670" started-at="2019-09-03T10:52:58Z" finished-at="2019-09-03T10:52:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test2 status=SUCCESS method=TestClass.Test2()[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@475530b9] output={null}]]]>
+                <![CDATA[[TestResult name=Test2 status=SUCCESS method=TestClass.Test2()[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@1d057a39] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="Test3()[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@475530b9]" name="Test3" duration-ms="2820" started-at="2019-09-03T10:34:32Z" finished-at="2019-09-03T10:34:35Z">
+        <test-method status="PASS" signature="Test3()[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@1d057a39]" name="Test3" duration-ms="3081" started-at="2019-09-03T10:52:59Z" finished-at="2019-09-03T10:53:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@475530b9]" name="tearDown" is-config="true" duration-ms="474" started-at="2019-09-03T10:34:35Z" finished-at="2019-09-03T10:34:35Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@1d057a39]" name="tearDown" is-config="true" duration-ms="760" started-at="2019-09-03T10:53:02Z" finished-at="2019-09-03T10:53:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test3 status=SUCCESS method=TestClass.Test3()[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@475530b9] output={null}]]]>
+                <![CDATA[[TestResult name=Test3 status=SUCCESS method=TestClass.Test3()[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@1d057a39] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@475530b9]" name="afterTest" is-config="true" duration-ms="2613" started-at="2019-09-03T10:34:35Z" finished-at="2019-09-03T10:34:38Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.TestNG_ITestListenerReporters.TestClass@1d057a39]" name="afterTest" is-config="true" duration-ms="2605" started-at="2019-09-03T10:53:02Z" finished-at="2019-09-03T10:53:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.TestNG_ITestListenerReporters.TestClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

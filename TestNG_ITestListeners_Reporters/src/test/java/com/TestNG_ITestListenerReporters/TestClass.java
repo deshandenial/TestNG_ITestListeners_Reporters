@@ -1,5 +1,7 @@
 package com.TestNG_ITestListenerReporters;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.ITestAnnotation;
@@ -66,7 +68,8 @@ public class TestClass
 	 driver.manage().window().maximize();
   }
 
-  @AfterMethod
+ 
+@AfterMethod
 	public void tearDown(ITestResult result)
 	{
 		if(result.getStatus()==ITestResult.FAILURE)
